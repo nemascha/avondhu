@@ -1,0 +1,109 @@
+.page {
+	background-color: darkgrey;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	background-image: url(../images/bg.png);
+	position: fixed;
+}
+
+.top {
+	background-image: url(../images/head.png);
+	background-repeat: no-repeat;
+}
+
+.slogan {
+	padding: 120px 50px 5px 60px;
+	color: white;
+}
+
+.content {
+	display: flex;
+}
+
+.none-decor {
+	text-decoration: none;
+}
+
+.left-sidebar {
+	text-align: end;
+	font: Arial, sans-serif;
+}
+
+.left-frame {
+	border: 1px, solid, grey;
+}
+
+.main-menu {
+	padding-right: 40px;
+	margin-left: 15px;
+	margin-top: 25px;
+}
+
+.main-list {
+	padding: 40px 20px;
+	line-height: 2;
+	background: linear-gradient(to right, #ce0610 35%,#bb0610 25%);
+}
+
+.main-menu-link {
+	color: white;
+}
+
+.websites-menu {
+	line-height: 2;
+}
+
+.websites-heading {
+	color: #b81727;
+}
+
+.websites-list {
+	padding: 10px 40px;
+}
+
+.websites-menu-link {
+	color: #003476;
+}
+
+.contact-information-list {
+	padding: 10px 40px;
+}
+
+.contact-heading {
+	color: #b81727;
+}
+
+.contact-text {
+	color: black;
+}
+
+.center-frame-heading {
+	color: #b81727; 
+}
+
+.center-frame-text {
+	line-height: 1.5;
+}
+
+.preview-heading {
+	color: #b81727;
+}
+
+.preview-paragraph {
+	line-height: 1.5;
+}
+
+.banner-link {
+	color: #b81727; 
+}
+
+.bottom-menu-link {
+	color: #003476;
+}
+
+
+
+
