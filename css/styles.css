@@ -6,12 +6,17 @@
 	display: flex;
 	flex-direction: column;
 	background-image: url(../images/bg.png);
-	position: fixed;
+	background-size: contain;
+	min-width: 800px;
+	min-height: 1220px;
 }
 
 .top {
+	display: flex;
+	flex-direction: row;
 	background-image: url(../images/head.png);
 	background-repeat: no-repeat;
+	background-size: contain;
 }
 
 .slogan {
@@ -28,24 +33,33 @@
 }
 
 .left-sidebar {
+	margin: 10px 20px 10px 10px;
 	text-align: end;
 	font: Arial, sans-serif;
+	font-size: small;
+	min-width: 80px;
+	max-width: 180px;
 }
 
 .left-frame {
-	border: 1px, solid, grey;
+	padding: 0 25px 0 0;
+	border: 1.25px solid darkgrey;
+	border-radius: 5px;
+	margin-left: 15px;
+	margin-top: 25px;
+	font: Arial, sans-serif;
+	font-size: smaller; 
 }
 
 .main-menu {
-	padding-right: 40px;
-	margin-left: 15px;
-	margin-top: 25px;
+
 }
 
 .main-list {
-	padding: 40px 20px;
+	padding: 20px 20px;
 	line-height: 2;
 	background: linear-gradient(to right, #ce0610 35%,#bb0610 25%);
+	border-radius:  5px 0 0 5px;
 }
 
 .main-menu-link {
@@ -61,18 +75,27 @@
 }
 
 .websites-list {
-	padding: 10px 40px;
+	padding: 20px 5px;
 }
 
 .websites-menu-link {
 	color: #003476;
 }
 
+.contact-information {
+	
+}
+
 .contact-information-list {
-	padding: 10px 40px;
+	padding: 20px 0 0 0;
+}
+
+.contact-menu-item {
+	padding-bottom: 15px;
 }
 
 .contact-heading {
+	padding-bottom: 3px;
 	color: #b81727;
 }
 
@@ -80,12 +103,39 @@
 	color: black;
 }
 
+.main-content {
+	margin: 30px 10px 20px 35px;
+	max-width: 400px;
+}
+
+.center-frame {
+	background-color: darkgrey;
+	border: 1px solid darkgrey;
+	border-radius: 5px;
+}
+
+.center-frame:after {
+	content: "";
+    display: table;
+    clear: both;
+ }
+
 .center-frame-heading {
 	color: #b81727; 
+	font-size: large;
+	font-weight: bold;
+	padding: 7px; 
 }
 
 .center-frame-text {
 	line-height: 1.5;
+	font-size: small;
+	padding: 7px 10px 7px;
+}
+
+.photo-building {
+	padding: 10px;
+	float: left;
 }
 
 .preview-heading {
@@ -96,8 +146,25 @@
 	line-height: 1.5;
 }
 
+.right-sidebar {
+	padding: 10px;
+	max-width: 180px;
+}
+
 .banner-link {
 	color: #b81727; 
+}
+
+.right-photo {
+
+}
+
+.bottom {
+	display: flex;
+}
+
+.bottom-nav-menu {
+	display: flex;
 }
 
 .bottom-menu-link {
