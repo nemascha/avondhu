@@ -13,16 +13,62 @@
 
 .top {
 	display: flex;
-	flex-direction: row;
-	background-image: url(../images/head.png);
+	flex-direction: column;
+	background-image: url(../images/head_clean.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	max-width: 960px;
+	min-height: 160px;
+}
+
+.logo-icons {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+.logo-letters {
+	padding-right: 600px;
+}
+
+.logo {
+	padding-top: 30px;
+}
+
+.icons {
+	padding-top: 30px;
+	padding-right: 25px;
+}
+
+.top-letters {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: flex-end;
+	padding-top: 15px;
+	padding-right: 30px;
+}
+
+.date {
+	padding-left: 5px;
+	font-size: small;
 }
 
 .slogan {
-	padding: 120px 50px 0 60px;
+	flex-grow: 2;
+	padding-left: 215px;
+	font-weight: bold;
 	color: white;
+}
+
+.issue {
+	color: #b81727;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.date {
+	color: #b81727;
 }
 
 .content {
@@ -54,10 +100,6 @@
 	font-size: smaller; 
 }
 
-.main-menu {
-
-}
-
 .main-list {
 	padding: 20px 20px;
 	line-height: 2;
@@ -83,10 +125,6 @@
 
 .websites-menu-link {
 	color: #003476;
-}
-
-.contact-information {
-	
 }
 
 .contact-information-list {
@@ -161,16 +199,15 @@
 	max-width: 210px;
 }
 
-.right-top {
-	
-}
-
 .right-frame {
 	background-color: #eaeef1;
 	border: 1.25px solid #bec3ca;
 	border-radius: 5px;
-	padding: 17px;
 	margin-bottom: 20px;
+}
+
+.right-frame-banner {
+	margin: 17px;
 }
 
 .banner-link {
@@ -182,17 +219,33 @@
 	font-size: smaller;
 }
 
-.right-photo:not(:last-child):after{
-	border-bottom: 2px solid #bec3ca;
+.right-photo-top {
+	margin-bottom: 15px;
+	border-bottom: 1.5px solid #bec3ca; 
+}
+
+.face-photo {
+	margin: 17px;
 }
 
 .photo-text {
-	margin: 10px 0;
+	margin: 0 17px 17px 17px;
 	font-size: smaller;
+	line-height: 1.25;
 }
 
 .bottom {
 	display: flex;
+	margin-top: 20px;
+}
+
+.copyright {
+	margin-left: 20px; 
+	font-size: 12px;
+}
+
+.bottom-menu {
+	margin-left: 90px;
 }
 
 .bottom-nav-menu {
@@ -201,10 +254,13 @@
 
 .bottom-menu-item:not(:last-child):after{
 	content: "|";
+	color: #003476;
 }
 
 .bottom-menu-link {
+	padding: 0 3px;
 	color: #003476;
+	font-size: 12px;
 }
 
 
