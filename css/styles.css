@@ -97,18 +97,30 @@
 	border-radius: 5px;
 	margin-bottom: 20px;
 	font: Arial, sans-serif;
-	font-size: smaller; 
+	font-size: smaller;
+	background-color: #f2f5f7; 
 }
 
 .main-list {
-	padding: 20px 20px;
+	padding: 20px 0 20px 20px;
 	line-height: 2;
 	background: linear-gradient(to right, #ce0610 35%,#bb0610 25%);
 	border-radius:  5px 0 0 5px;
 }
 
+.main-menu-item {
+	margin-right: -8px;
+}
+
 .main-menu-link {
 	color: white;
+	padding: 10px 25px 10px 0;
+}
+
+.main-menu-link:hover{
+	background-image: url(../images/menu_arrows.png);
+	background-repeat: no-repeat;
+	background-position: right;
 }
 
 .websites-menu {
@@ -125,6 +137,10 @@
 
 .websites-menu-link {
 	color: #003476;
+}
+
+.websites-menu-link:hover{
+	text-decoration: none;
 }
 
 .contact-information-list {
@@ -212,6 +228,10 @@
 
 .banner-link {
 	color: #b81727; 
+}
+
+.banner-link:hover{
+	text-decoration: none; 
 }
 
 .banner-heading {
