@@ -1,0 +1,255 @@
+.page {
+  background-color: darkgrey; }
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  width: 1150px;
+  height: 1450px; }
+
+.top {
+  display: flex;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 980px;
+  min-height: 160px; }
+
+.logo-hot-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end; }
+
+.logo-image {
+  padding-right: 600px; }
+
+.logo {
+  padding-top: 30px; }
+
+.hot-menu {
+  padding-top: 30px;
+  padding-right: 25px; }
+
+.top-letters {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-top: 15px;
+  padding-right: 30px;
+  font-family: Arial, sans-serif; }
+
+.date {
+  padding-left: 5px;
+  font-size: small; }
+
+.slogan {
+  flex-grow: 2;
+  padding-left: 215px;
+  font-weight: bold;
+  color: white; }
+
+.issue {
+  color: #b81727;
+  font-size: 12px;
+  font-weight: bold; }
+
+.date {
+  color: #b81727; }
+
+.content {
+  display: flex;
+  margin-top: 30px;
+  max-width: 980px; }
+
+.none-decor {
+  text-decoration: none; }
+
+.left-sidebar {
+  display: flex;
+  flex-direction: column;
+  text-align: end;
+  margin: 0 40px 10px 35px;
+  font-size: small;
+  min-width: 80px;
+  max-width: 180px; }
+
+.aside-container {
+  padding: 0 25px 0 0;
+  border: 1.25px solid #bec3ca;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  font-family: Arial, sans-serif;
+  font-size: smaller;
+  background-color: #f2f5f7; }
+
+.main-list {
+  padding: 20px 0 20px 20px;
+  line-height: 2;
+  background: linear-gradient(to right, #e90002, #b90003);
+  border-radius: 5px 0 0 5px; }
+
+.main-menu-item {
+  margin-right: -8px; }
+
+.main-menu-link {
+  color: white;
+  padding: 10px 25px 10px 0; }
+
+.main-menu-link:hover {
+  background-repeat: no-repeat;
+  background-position: right; }
+
+.websites-menu {
+  line-height: 2; }
+
+.websites-heading {
+  color: #b81727; }
+
+.websites-list {
+  padding: 20px 5px; }
+
+.websites-menu-link {
+  color: #003476; }
+
+.websites-menu-link:hover {
+  text-decoration: none; }
+
+.contact-information-list {
+  padding: 20px 0 0 0; }
+
+.contact-menu-item {
+  padding-bottom: 15px; }
+
+.contact-heading {
+  padding-bottom: 5px;
+  color: #b81727;
+  font-weight: bold; }
+
+.contact-text {
+  color: black; }
+
+.main-content {
+  margin: 0 30px 20px 50px;
+  max-width: 450px; }
+
+.main-container {
+  background-color: #b9c3c9;
+  border: 1px solid #b9c3c9;
+  border-radius: 5px;
+  font-family: Arial, sans-serif; }
+
+.main-container:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.main-container-heading {
+  color: #b81727;
+  font-size: medium;
+  font-weight: bold;
+  padding: 7px; }
+
+.main-container-text {
+  line-height: 1.5;
+  font-size: smaller;
+  padding: 7px 10px 7px; }
+
+.photo-building {
+  padding: 10px;
+  float: left; }
+
+.preview {
+  margin-top: 20px;
+  margin-bottom: 10px; }
+
+.preview-heading {
+  padding: 10px 0;
+  color: #b81727;
+  font-family: Arial, sans-serif;
+  font-size: medium;
+  font-weight: bold; }
+
+.preview-paragraph {
+  font-family: Arial, sans-serif;
+  font-size: smaller;
+  line-height: 1.5; }
+
+.full-story-arrows {
+  font-family: Arial, sans-serif;
+  color: #b81727;
+  font-size: smaller;
+  font-weight: bold; }
+
+.full-story-link {
+  font-family: Arial, sans-serif;
+  color: #b81727;
+  font-size: smaller;
+  padding-left: 5px; }
+
+.right-sidebar {
+  max-width: 210px; }
+
+.ad-container {
+  background-color: #eaeef1;
+  border: 1.25px solid #bec3ca;
+  border-radius: 5px;
+  margin-bottom: 20px; }
+
+.ad-container-banner {
+  margin: 17px; }
+
+.banner-link {
+  font-family: Arial, sans-serif;
+  color: #b81727; }
+
+.banner-link:hover {
+  text-decoration: none; }
+
+.banner-heading {
+  margin: 10px 0 10px 0;
+  font-size: smaller; }
+
+.right-photo-top {
+  margin-bottom: 15px;
+  border-bottom: 1.5px solid #bec3ca; }
+
+.article-link {
+  display: block;
+  text-decoration: none; }
+
+.article-photo {
+  margin: 17px; }
+
+.article-photo-text {
+  margin: 0 17px 17px 17px;
+  font-family: Arial, sans-serif;
+  font-size: smaller;
+  line-height: 1.25;
+  color: black; }
+
+.bottom {
+  display: flex;
+  margin-top: 75px; }
+
+.copyright {
+  margin-left: 20px;
+  font-family: Arial, sans-serif;
+  font-size: 12px; }
+
+.bottom-menu {
+  margin-left: 100px; }
+
+.bottom-nav-menu {
+  display: flex; }
+
+.bottom-menu-item:not(:last-child):after {
+  content: "|";
+  color: #003476; }
+
+.bottom-menu-link {
+  padding: 0 4px;
+  color: #003476;
+  font-family: Arial, sans-serif;
+  font-size: 12px; }

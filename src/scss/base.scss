@@ -1,3 +1,5 @@
+$main-font: Arial, sans-serif;
+
 .page {
 	background-color: darkgrey;
 }
@@ -5,7 +7,7 @@
 .wrapper {
 	display: flex;
 	flex-direction: column;
-	background-image: url(../images/bg.png);
+	
 	background-size: cover;
 	width: 1150px;
 	height: 1450px;
@@ -14,7 +16,7 @@
 .top {
 	display: flex;
 	flex-direction: column;
-	background-image: url(../images/head_clean.png);
+
 	background-repeat: no-repeat;
 	background-size: cover;
 	max-width: 980px;
@@ -119,7 +121,7 @@
 }
 
 .main-menu-link:hover{
-	background-image: url(../images/menu_arrows.png);
+	
 	background-repeat: no-repeat;
 	background-position: right;
 }
@@ -312,4 +314,3 @@
 	font-family: Arial, sans-serif;
 	font-size: 12px;
 }
-
