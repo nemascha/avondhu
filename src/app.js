@@ -1,1 +1,3 @@
-import './scss/base.scss'
+'use strict';
+
+console.log('worked');
