@@ -1,6 +1,11 @@
 @import "reset";
 
 $main-font: Arial, sans-serif;
+$main-font-color: #b81727;
+$menu-links-color: #003476;
+$asides-border: 1.25px solid #bec3ca;
+$ad-container-bg-color: #eaeef1;
+$main-container-color: #b9c3c9;
 
 .page {
 	background-color: darkgrey;
@@ -9,7 +14,7 @@ $main-font: Arial, sans-serif;
 .wrapper {
 	display: flex;
 	flex-direction: column;
-	
+	background-image: url(~/images/bg.png);	
 	background-size: cover;
 	width: 1150px;
 	height: 1450px;
@@ -18,7 +23,7 @@ $main-font: Arial, sans-serif;
 .top {
 	display: flex;
 	flex-direction: column;
-
+	background-image: url(~/images/head_clean.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	max-width: 980px;
@@ -51,7 +56,7 @@ $main-font: Arial, sans-serif;
 	align-items: flex-end;
 	padding-top: 15px;
 	padding-right: 30px;
-	font-family: Arial, sans-serif;
+	font-family: $main-font;
 }
 
 .date {
@@ -67,13 +72,13 @@ $main-font: Arial, sans-serif;
 }
 
 .issue {
-	color: #b81727;
+	color: $main-font-color;
 	font-size: 12px;
 	font-weight: bold;
 }
 
 .date {
-	color: #b81727;
+	color: $main-font-color;
 }
 
 .content {
@@ -98,10 +103,10 @@ $main-font: Arial, sans-serif;
 
 .aside-container {
 	padding: 0 25px 0 0;
-	border: 1.25px solid #bec3ca;
+	border: $asides-border;
 	border-radius: 5px;
 	margin-bottom: 20px;
-	font-family: Arial, sans-serif;
+	font-family: $main-font;
 	font-size: smaller;
 	background-color: #f2f5f7; 
 }
@@ -123,7 +128,7 @@ $main-font: Arial, sans-serif;
 }
 
 .main-menu-link:hover{
-	
+	background-image: url(~/images/menu_arrows.png);
 	background-repeat: no-repeat;
 	background-position: right;
 }
@@ -133,7 +138,7 @@ $main-font: Arial, sans-serif;
 }
 
 .websites-heading {
-	color: #b81727;
+	color: $main-font-color;
 }
 
 .websites-list {
@@ -141,7 +146,7 @@ $main-font: Arial, sans-serif;
 }
 
 .websites-menu-link {
-	color: #003476;
+	color: $menu-links-color;
 }
 
 .websites-menu-link:hover{
@@ -158,7 +163,7 @@ $main-font: Arial, sans-serif;
 
 .contact-heading {
 	padding-bottom: 5px;
-	color: #b81727;
+	color: $main-font-color;
 	font-weight: bold;
 }
 
@@ -172,10 +177,10 @@ $main-font: Arial, sans-serif;
 }
 
 .main-container {
-	background-color: #b9c3c9;
-	border: 1px solid #b9c3c9;
+	background-color: $main-container-color;
+	border: 1px solid $main-container-color;
 	border-radius: 5px;
-	font-family: Arial, sans-serif;
+	font-family: $main-font;
 }
 
 .main-container:after {
@@ -185,7 +190,7 @@ $main-font: Arial, sans-serif;
  }
 
 .main-container-heading {
-	color: #b81727; 
+	color: $main-font-color; 
 	font-size: medium;
 	font-weight: bold;
 	padding: 7px; 
@@ -209,28 +214,28 @@ $main-font: Arial, sans-serif;
 
 .preview-heading {
 	padding: 10px 0;
-	color: #b81727;
-	font-family: Arial, sans-serif;
+	color: $main-font-color;
+	font-family: $main-font;
 	font-size: medium;
 	font-weight: bold;
 }
 
 .preview-paragraph {
-	font-family: Arial, sans-serif;
+	font-family: $main-font;
 	font-size: smaller;
 	line-height: 1.5;
 }
 
 .full-story-arrows {
-	font-family: Arial, sans-serif;
-	color: #b81727; 
+	font-family: $main-font;
+	color: $main-font-color; 
 	font-size: smaller;
 	font-weight: bold;
 }
 
 .full-story-link{
-	font-family: Arial, sans-serif;
-	color: #b81727; 
+	font-family: $main-font;
+	color: $main-font-color; 
 	font-size: smaller;	
 	padding-left: 5px;
 }
@@ -240,8 +245,8 @@ $main-font: Arial, sans-serif;
 }
 
 .ad-container {
-	background-color: #eaeef1;
-	border: 1.25px solid #bec3ca;
+	background-color: $ad-container-bg-color;
+	border: $asides-border;
 	border-radius: 5px;
 	margin-bottom: 20px;
 }
@@ -251,8 +256,8 @@ $main-font: Arial, sans-serif;
 }
 
 .banner-link {
-	font-family: Arial, sans-serif;
-	color: #b81727; 
+	font-family: $main-font;
+	color: $main-font-color; 
 }
 
 .banner-link:hover{
@@ -266,7 +271,7 @@ $main-font: Arial, sans-serif;
 
 .right-photo-top {
 	margin-bottom: 15px;
-	border-bottom: 1.5px solid #bec3ca; 
+	border-bottom: $asides-border; 
 }
 
 .article-link {
@@ -293,7 +298,7 @@ $main-font: Arial, sans-serif;
 
 .copyright {
 	margin-left: 20px; 
-	font-family: Arial, sans-serif;
+	font-family: $main-font;
 	font-size: 12px;
 }
 
@@ -307,12 +312,12 @@ $main-font: Arial, sans-serif;
 
 .bottom-menu-item:not(:last-child):after{
 	content: "|";
-	color: #003476;
+	color: $menu-links-color;
 }
 
 .bottom-menu-link {
 	padding: 0 4px;
-	color: #003476;
-	font-family: Arial, sans-serif;
+	color: $menu-links-color;
+	font-family: $main-font;
 	font-size: 12px;
 }
